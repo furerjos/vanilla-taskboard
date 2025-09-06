@@ -1,0 +1,18 @@
+HTML:
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+        <script src = "file" defer></script>
+    <body>
+<html>
+
+
+
+CSS:
+.class
+#id
+
+
+JS:

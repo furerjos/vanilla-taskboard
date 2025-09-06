@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Josh's Vanilla Taskboard</title>
+    <script src="./main.js" defer></script>
+    <style>
+      body {
+        background-color: rgb(238, 240, 239);
+        margin: 0px;
+      }
+      header {
+        background-color: rgb(20, 21, 20);
+        color: rgb(233, 235, 193);
+        height: auto;
+        font-size: 69px;
+        padding: 5px;
+        text-align: center;
+        border-bottom: 2px solid rgb(233, 235, 193);
+      }
+      i {
+        padding: 10px;
+      }
+      #name-setter {
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <header id="title">
+      <i id="headername">______'s</i>
+      <i>Vanilla To-Do List</i>
+    </header>
+    <form id="name-setter" target="_self">
+      <input
+        type="text"
+        id="inputname"
+        name="inputname"
+        placeholder="Enter Name"
+      />
+      <input type="submit" id="namesubmitbtn" aria-placeholder="Save" value="Save" />
+      <input type="button" id="nameclearbtn" aria-placeholder="Clear Name" value="Clear Name" />
+    </form>
+  </body>
+</html>
