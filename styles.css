@@ -1,0 +1,57 @@
+body {
+    background-color: #ECD7B6;
+    margin: 0px;
+  }
+  #title {
+    background-color: #010107;
+    color: #ECD7B6;
+    height: auto;
+    font-size: 69px;
+    padding: 5px;
+    text-align: center;
+    border-bottom: 2px solid #ECD7B6;
+  }
+  i {
+    padding: 10px;
+  }
+  #name-setter {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin: 10px;
+  }
+  #taskboard-div {
+    border: solid 1px #010107;
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-self: center;
+    flex-direction: column;       
+  }
+  section {
+    background-color: yellow;
+    height: auto;
+    padding: 5px;
+    flex-shrink: 0;
+  }
+  .button {
+    border-radius: 5px;
+    border: 1px solid #010107;
+    padding: 4px;
+    cursor: pointer;
+  }
+  .button:hover {
+    background-color: #c7f2db;
+  }
+  .task-item {
+    border: black solid 2px;
+    display: flex;
+    justify-items: center;
+    padding: 10px;
+    margin: 20px;
+    height: auto;
+    width: auto;
+  }
+  .tasktext {
+    margin-left: 10px;
+  }
